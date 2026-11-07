@@ -53,7 +53,7 @@ const Navbar = () => {
                hover:text-white text-[18px] font-medium cursor-pointer`}
             // onClick={() =>alert("1")}
           >
-            <a href={`/resume/孙焱-27岁-三年经验-前端开发_43583.pdf`}>简历</a>
+            <a href={`/resume/孙焱-前端开发工程师-简历-脱敏版.pdf`} target='_blank' rel='noopener noreferrer'>简历</a>
           </li>
           {navLinks.map((nav) => (
             <li
@@ -80,6 +80,12 @@ const Navbar = () => {
               } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+              <li
+                className='font-poppins font-medium cursor-pointer text-[16px] text-secondary hover:text-white'
+                onClick={() => setToggle(!toggle)}
+              >
+                <a href={`/resume/孙焱-前端开发工程师-简历-脱敏版.pdf`} target='_blank' rel='noopener noreferrer'>简历</a>
+              </li>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

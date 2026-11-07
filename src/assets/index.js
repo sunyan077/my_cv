@@ -30,6 +30,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import cesiumPort from "./projects/cesium_port.jpg";
+import arabGov from "./projects/arab_gov.jpg";
+import govDecision from "./projects/gov_decision.jpg";
+import bimPark from "./projects/bim_park.jpg";
+import laserSim from "./projects/laser_sim.jpg";
+import scadaTopology from "./projects/scada_topology.jpg";
+import smartEnergyApp from "./projects/smart_energy_app.jpg";
+
 export {
   logo,
   backend,
@@ -59,4 +67,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  cesiumPort,
+  arabGov,
+  govDecision,
+  bimPark,
+  laserSim,
+  scadaTopology,
+  smartEnergyApp,
 };

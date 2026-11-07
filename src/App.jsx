@@ -27,9 +27,7 @@ const App = () => {
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
-          <div className=" w-full h-[calc(180%)] bg-black absolute top-0 z-[-1]">
-            <StarsCanvas />
-          </div>
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
